@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Optional" Version="4.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Collections.Immutable">
+      <HintPath>..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Collections.Immutable\v4.0_1.1.37.0__b03f5f7f11d50a3a\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
